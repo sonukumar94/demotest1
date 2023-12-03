@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed | Linkedin</title>
+
+                      <!-------- custom css  -------->
+    <link rel="stylesheet" href="./css/style.css" />
+  
+                  <!----- font awesom icons ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+                 <!-- google font icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+  <body>
+    
+         <!--------------------- navbar  ---------------------->
+      <!-- <nav class="navbar">
+        <div class="nav-container">
+
+        <div class="navbar-left">
+          <a href="index.html"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+
+        <div class="navbar-center">
+
+        <div class="icon">
+          <a href="#home"><i class="fa-solid fa-house-chimney"></i></a>
+          <a href="#home"><h6>Home</h6></a>
+        </div>
+
+        <div class="icon">
+          <a href="#my network"><i class="fa-solid fa-user-group"></i></a>
+            <a href="#my network"><h6>My Network</h6></a>
+          </div>
+
+          <div class="icon">
+            <a href="#jobs"><i class="fa-solid fa-briefcase"></i></a>
+              <a href="#jobs"><h6>jobs</h6></a>
+            </div>
+  
+
+        <div class="icon">
+          <a href="#messasing"><i class="fa-solid fa-comment-dots"></i></a>
+            <a href="#messasing"><h6>Messasing</h6></a>
+          </div>
+
+          <div class="icon">
+          <a href="#notifications"><i class="fa-solid fa-bell"></i></a>
+            <a href="#notifications"><h6>Notifications</h6></a>
+          </div>
+          
+          <div class="icon">
+          <a href="#user" class="user-profile"
+            ><img src="./images/profile.png" class="nav-profile-img" />
+            <h6>Me<i class="fa-solid fa-caret-down"></i></h6
+          ></a>
+        </div>
+      </div>
+
+        <div class="navbar-right">
+          <div class="nav-box">
+          <div class="user-profile">
+            <span class="material-symbols-outlined">
+              apps
+              </span>
+            <h6>For Business<i class="fa-solid fa-caret-down"></i></h6
+              ></a>
+            </div>
+          </div>
+
+          <a href="#">Try Premium free for 1 month</a>
+        </div>
+      </div>
+      </nav> -->
+
+        <header id="main-header">
+            <div style="display: flex;">
+                <div>
+                    <img id="header-logo" src="./images/LinkedIn logo.png" alt="LinkedIn">
+                    <img id="header-picture-menu" src="/images/picture.jpeg" alt="Profile picture">
+                    <span id="header-picture-menu-bars">
+                        <span class="fas fa-bars" aria-hidden="true"></span>
+                    </span>
+
+                    <div>
+                        <input id="search" type="text" placeholder="       Search" onfocus="toggleSearchInput()" onblur="toggleSearchInput()">
+                        <span id="search-icon" class="fas fa-search" aria-hidden="true" style="display: block;"></span>
+                        <span id="search-button" class="fas fa-search" aria-hidden="true" style="display: none;"></span>
+                    </div>
+                    <span class="fas fa-comments" aria-hidden="true"></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <div id="home" class="selected">
+                                <span class="fas fa-home" aria-hidden="true"></span>
+                                <span class="nav-item-text">Home</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="fas fa-user-friends" aria-hidden="true"></span>
+                                <span class="nav-item-text">My Network</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="fas fa-suitcase" aria-hidden="true"></span>
+                                <span class="nav-item-text">Jobs</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="fas fa-envelope" aria-hidden="true"></span>
+                                <span class="nav-item-text">Messaging</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="fas fa-bell" aria-hidden="true"></span>
+                                <span class="nav-item-text">Notifications</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="right-border">
+                                <img src="./images/profile.png" alt="Profile picture">
+
+                                <span class="nav-item-text">
+                                    Me<span class="fas fa-caret-down" aria-hidden="true"> </span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span class="fas fa-th" aria-hidden="true"></span>
+
+                                <span class="nav-item-text">For Busimess<span class="fas fa-caret-down" aria-hidden="true"> </span></span>
+                            </div>
+                        </li>
+                        <li id="premium">
+                            <div>
+                                <a href="#">Try Premium Free for 1 Month</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+      <div class="container">
+        <!-- -------------sidebar-------------->
+        <div class="sidebar-1">
+          <div class="sidebar">
+            <div class="top">
+              <img src="./images/img2.jpeg" alt="" />
+            </div>
+            <a href="#"><img src="./images/profile.png" alt=""></a>
+            <div class="profile">
+              <a href="#"><h4>Anjali Kumari</h4></a>
+              <p>
+                Full Stack Developer & Designer | Actively looking for
+                opportunities to work in Development Field
+              </p>
+            </div>
+
+            <div class="view">
+              <div class="box">
+                <div class="viewer">
+                  <a href="#"
+                    ><h6>Profile Viewers <span> 157</span></h6>
+                  </a>
+                </div>
+                <div class="viewer">
+                  <a href="#"
+                    ><h6>Post Impression <span> 51</span></h6></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="premium">
+              <div class="content">
+                <h5>Strengthen your profile with an AI writing assistant</h5>
+                <a href="#"
+                  ><i class="fa-solid fa-box"></i>
+                  <h4>Network Smarter, Try Premium Free</h4></a
+                >
+              </div>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-bookmark"></i>
+              <h6>My Items</h6>
+            </div>
+          </div>
+
+          <div class="recent-jobs">
+            <div class="recent">
+              <h6 class="h6">Recent</h6>
+              <div class="one">
+                <a href="#"><i class="fa-solid fa-users"></i>
+                <h6>Web Designer, HTML & CSS....</h6></a>
+            <a href="#"><i class="fa-solid fa-users"></i>
+                <h6>Pan India Jobs Network....</h6></a>
+             <a href="#"><i class="fa-solid fa-users"></i>
+                <h6>Part-Time/Freelance/Remote..</h6></a>
+              <a href="#"><i class="fa-solid fa-users"></i>
+                <h6>UI Developer/ Front End....</h6></a>
+              </div>
+            </div>
+          
+          <div class="groups">
+            <h6 class="h6">Groups</h6>
+            <div class="two">
+              <a href="#"><i class="fa-solid fa-users"></i>
+              <h6>The Flexbox Jobs...</h6></a>
+            <a href="#"><i class="fa-solid fa-users"></i>
+              <h6> HTML & CSS....</h6></a>
+            <a href="#"><i class="fa-solid fa-users"></i>
+              <h6>Pan India Jobs Network-Fres...</h6></a>
+            <a href="#" class="last">
+              <h6>
+               See all</h6></a>
+            </div>
+          </div>
+          <div class="event">
+            <a href="#"><h6>Events</h6>
+            <i class="fa-solid fa-plus"></i></a>
+          </div>
+          <a href="#" class="follow"
+          ><h6>Followed Hashtags</h6></a>
+          <div class="discover">
+            <a href="#"><h5>Discover More</h5></a>
+          </div>
+      </div>
+    </div>
+
+        <!-- -------------main section------------  -->
+        <div class="main-section">
+          <div class="media">
+            <div class="search">
+            <img src="./images/profile.png" alt="">
+            <div class="input">Start a post</div>
+          </div>
+      <div class="posts">
+            <div class="post">
+         <i class="fa-regular fa-image"></i>
+            <h5>media</h5>
+          </div>
+            <div class="post"><i class="fa-brands fa-youtube"></i>
+            <h5>Video</h5></div>
+
+            <div class="post"><i class="fa-regular fa-calendar-minus"></i>
+            <h5>Event</h5></div>
+
+            <div class="post"><i class="fa-solid fa-newspaper"></i>
+            <h5>Write article</h5>
+          </div>
+          </div>
+        </div>
+          <div class="image">
+            <div class="logo">
+              <div class="img">
+              <img src="./images/codeclouds_logo.jpeg" alt="">
+              <div class="head">
+              <h4>CodeClouds</h4>
+              <h5>Promoted</h5>
+            </div>
+          </div>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="content">
+            <p>We're hiring HTML developers! if you'd like then take the next step in your carrer, apply at our website!</p>
+            <img src="./images/0640___hiring_ads_HTML_dev_March_2023_4_Instagram_1080x1080px2x-80jpeg.jpeg" alt="">
+            <div class="like">
+              <img src="./images/Like.svg" alt="">
+              <img src="./images/Appreciate.svg" alt="">
+              <img src="./images/Clap.svg" alt="">
+              <span>20 . Comments</span>
+            </div>
+            <div class="comment">
+              <div class="comments">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <h5>Like</h5>
+              </div>
+              <div class="comments">
+                <i class="fa-regular fa-comment"></i>
+                <h5>Comment</h5>
+              </div>
+                <div class="comments">
+                  <i class="fa-solid fa-share"></i>
+                  <h5>Share</h5>
+                </div>
+                  <div class="comments">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h5>Send</h5>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="image2">
+          <div class="logo">
+            <div class="img">
+            <img src="./images/myntra logo.jpg" alt="">
+            <div class="head">
+            <h4>Myntra Fashion</h4>
+            <p>792,456 Followers</p>
+            <p>Promoted</p>
+          </div>
+        </div>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="content">
+          <img src="./images/Demo post image.jpg" alt="">
+        </div>
+          <div class="like">
+            <img src="./images/Like.svg" alt="">
+            <img src="./images/Appreciate.svg" alt="">
+            <img src="./images/Clap.svg" alt="">
+            <span>20 . Comments</span>
+          </div>
+          <div class="comment">
+            <div class="comments">
+              <i class="fa-regular fa-thumbs-up"></i>
+              <h5>Like</h5>
+            </div>
+            <div class="comments">
+              <i class="fa-regular fa-comment"></i>
+              <h5>Comment</h5>
+            </div>
+              <div class="comments">
+                <i class="fa-solid fa-share"></i>
+                <h5>Share</h5>
+              </div>
+                <div class="comments">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <h5>Send</h5>
+                </div>
+          </div>
+        </div>
+
+        <div class="image3">
+          <div class="logo">
+            <div class="img">
+            <img src="./images//Profile logo of yash.jpg" alt="">
+            <div class="head">
+            <h4>Yash Sharma</h4>
+            <p>10 Million-Followers<p>
+            <p>Youtube<p>
+          </div>
+        </div>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="content">
+            <p>Published new video on css property Box model, this video will run through few more  properties that make up the box-model,Box model,Margin, Border, Padding, Content height & Width</p>
+          <video controls muted  src="./images/Demo post video (1).mp4"></video>
+        </div>
+          <div class="like">
+            <img src="./images/Like.svg" alt="">
+            <img src="./images/Appreciate.svg" alt="">
+            <img src="./images/Clap.svg" alt="">
+            <span>20 . Comments</span>
+          </div>
+          <div class="comment">
+            <div class="comments">
+              <i class="fa-regular fa-thumbs-up"></i>
+              <h5>Like</h5>
+            </div>
+            <div class="comments">
+              <i class="fa-regular fa-comment"></i>
+              <h5>Comment</h5>
+            </div>
+              <div class="comments">
+                <i class="fa-solid fa-share"></i>
+                <h5>Share</h5>
+              </div>
+                <div class="comments">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <h5>Send</h5>
+                </div>
+          </div>
+        </div>
+      </div>
+        <!-- -------------right sidebar------------  -->
+
+        <div class="right-sidebar">
+
+            <div class="newsfeed">
+
+              <div class="head">
+            <h5>Linkedin News</h5>
+           <div class="notice">
+            <i>i</i>
+          </div>
+          </div>
+
+            <div class="bullet">
+              <i class="fa-solid fa-circle"></i>
+              <div class="text">
+                <h5>Indian crosses 3,58,974 daily cases</h5> 
+              <p>10h ago - 5,043 readers</p>
+            </div>
+            </div>
+
+            <div class="bullet">
+              <i class="fa-solid fa-circle"></i>
+              <div class="text">
+              <h5>Zomato files for $1.18 IPO</h5> 
+             <p>13h ago - 52,043 readers </p>
+            </div>
+          </div>
+
+            <div class="bullet">
+              <i class="fa-solid fa-circle"></i>
+              <div class="text">
+              <h5>jobs pay, in IT soar </h5> 
+              <p>1d ago - 7865 readers</p>
+            </div>
+            </div>
+
+            <div class="bullet">
+              <i class="fa-solid fa-circle"></i>
+              <div class="text">
+              <h5>Google saving $1B a year from WFH</h5> 
+              <p>2d ago - 7865 readers</p>
+             </div>
+            </div>
+          </div>
+         
+            <div class="newsfeed2">
+
+              <div class="head">
+            <h5>Today's most viewed courses</h5>
+           <div class="notice">
+            <i>i</i>
+          </div>
+          </div>
+
+            <div class="bullet">
+              <i class="fa-solid fa-circle"></i>
+              <div class="text">
+                <h5>Indian crosses 3,58,974 daily cases</h5> 
+              <p>Top news 9874 - reviews</p>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <i class="fa-solid fa-circle"></i>
+            <div class="text">
+              <h5>Indian crosses 3,58,974 daily cases</h5> 
+            <p>Top news 9874 - reviews</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="follow-button">
+        <div class="head">
+          <h5>Add to your feed</h5>
+         <div class="notice">
+          <i>i</i>
+        </div>
+        </div>
+
+          <div class="bullet">
+            <img src="./images/unilever logo.png" alt="">
+            <div class="text">
+              <h5>Unilever</h5> 
+            <p>Company-Consumer Goods</p>
+            <p class="btn"><button>+Follow</button>
+            </p>
+          </div>
+          </div>
+         
+
+          <div class="bullet">
+            <img src="./images/LinkedIn logo.png" alt="">
+            <div class="text">
+              <h5>Linkedin</h5> 
+            <p>Company-Internet</p>
+            <p class="btn"><button>+Follow</button>
+            </p>
+          </div>
+          </div>
+          
+
+          <div class="bullet">
+            <img src="./images/myntra logo.jpg" alt="">
+            <div class="text">
+              <h5>Myntra</h5> 
+            <p>Company-Internet</p>
+            <p class="btn"><button>+Follow</button></p>
+          </div>
+          </div>
+          
+      </div>
+    
+
+      </div>
+    </header>
+  </body>
+</html>
+
+

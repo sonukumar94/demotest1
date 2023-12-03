@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{font-size:18px; line-height:30px;}
+
+ .video .logo img{ height: 70px;} 
+
+.video .video-img img{width: 100%;
+    height: 750px;}
+
+ .video .logo{position: absolute;
+    top: 7%;
+    padding-left:8%;
+    
+} 
+   
+.video  .video-image img{width:100%; height:750px;}
+.menu .navbar-nav{position: absolute;
+    
+    right: 0px;
+    top: 36px;
+    z-index: 999;
+}
+
+
+.menu .navbar-nav .nav-item a{color:#fff; font-size:17px; font-weight: 600;}
+
+.welcome .section-title h2{color:#000; font-size:40px; font-weight:800; padding:20px 0px;}
+.welcome .section-title span{font-size: 30px; color:#295eb5; padding-bottom: 30px; font-weight: 800;}
+.welcome p{line-height: 1.9rem;
+    font-size: 18px; color:#222; text-align:justify;}
+
+   .why-choose .title h2{font-size:45px; line-height: 40px; font-weight: 900; margin-bottom: 30px;} 
+
+   .why-choose .list-item li {background: #f5f5f5; padding:10px; margin-bottom:10px;}
+   .why-choose .list-item {list-style:none; padding-left:0px;}
+   .why-choose .list-item li .fa{color:#147e10; font-size:16px; padding-right:15px;}

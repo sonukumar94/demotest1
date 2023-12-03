@@ -1,0 +1,57 @@
+
+.menu{background: #ff7900;}
+
+.menu .navbar-nav .nav-item .nav-link{font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+    border-bottom: 2px solid #fff;}
+
+    .menu .navbar-nav .nav-item .nav-link:hover{background-color: #000; border:none; transition: 0.5s;}
+    .menu .navbar-brand img{width: 150px;
+        background: #fff;
+        padding: 5px;
+        border-radius: 10px;}
+
+   .welcome .main-img img{box-shadow:1px -2px 13px #050505; border-radius:20px;}  
+   .welcome .content .title{font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-transform:uppercase;
+    text-align: center;
+    color:#ff7900;
+    text-shadow: 2px 1px 4px #050505;
+}   
+
+.welcome .content p:hover{color:#ff7900;  transition: 0.5s;}
+
+.welcome .content p .anjali:hover{color:red;}
+.welcome .content p{    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 31px;
+    text-align: justify;
+    font-weight: 500;}
+    .services .info h3 a{color:#ff7900; text-decoration:none; font-weight:800;}
+   .services .info h3{font-size: 25px;
+    text-align: center;
+    padding: 13px 0px;} 
+
+    .services  p{padding: 10px 20px;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        letter-spacing: 0.2px;
+    }
+
+    .services .info .btn2 {text-align: center;}
+
+    .services .info .btn2 a{background:#ff7900;
+        padding: 12px 19px;
+        font-size: 17px;
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        letter-spacing: 1px;
+        border-radius: 29px;}
+      
+        .services .card {padding-bottom: 25px;}
